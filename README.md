@@ -1,4 +1,18 @@
-# IDMX 11ty Sass Starter
+ # Simple Web Site
+
+This website includes a poem about love for my Web Dev 2 class
+
+The image is from unsplash by the author Bent Hertema
+The link is https://unsplash.com/photos/HuhBWIfw4Kg
+
+The author of the poem is John Clare
+
+Both of these are open sourse materials 
+ 
+ 
+ 
+ 
+ # IDMX 11ty Sass Starter
 
 The set of development scripts in this starter is configured to watch and compile a simple Sass structure using 11ty.
 
@@ -28,4 +42,4 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 
 ## Resources
 
-<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small> -->
