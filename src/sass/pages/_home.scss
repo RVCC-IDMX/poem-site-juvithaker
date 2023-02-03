@@ -1,16 +1,56 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
 body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
-  margin-inline: auto;
-  margin-block: 4rem;
+  background-image: url(https://images.unsplash.com/photo-1579786695384-b75487cd0411?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80); /* replace with the URL of the image you want to use */
+  background-size: cover;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  background-color: #F5F5DC; 
+  color: rgb(204, 221, 255); 
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  font-family: 'El Messiri', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+p {
+  margin: 2em 0;
 }
 
 h1 {
-  color: var.$primary-color;
+  
+  text-decoration-line: overline;
+  color: #e9d365; 
+  text-shadow: 2px 2px rgb(0, 0, 0);
   text-align: center;
+  font-size: 2.5em;
+  grid-column: 2 / span 1; 
+  font-family: 'DM Serif Text', serif;
+}
+
+h2{
+  color: #fcffd9; 
+  font-size: 1.5em;
+  font-family: 'DM Serif Text', serif;
+}
+
+h3{
+  text-align: center;
+  font-size: 1em;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+      font-size: 1em;
+  }
+  
+  h1 {
+      font-size: 2em;
+  }
+}
+
+img {
+  opacity: 0.5;
 }
