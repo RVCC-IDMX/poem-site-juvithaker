@@ -1,6 +1,6 @@
  # Simple Web Site
 
-This website includes a poem about love for my Web Dev 2 class
+This website includes a poem about love for my Web Dev 2 class, this is part 2 of the assignment called "Poem Site"
 
 The image is from unsplash by the author Bent Hertema
 The link is https://unsplash.com/photos/HuhBWIfw4Kg
