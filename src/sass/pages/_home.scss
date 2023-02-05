@@ -1,3 +1,4 @@
+@use "../base/typography";
 /* My Styles */
 
 /* My reset */
@@ -24,7 +25,7 @@ body {
   padding: 2rem 0.25rem 1rem;
   color: rgb(204, 221, 255);
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  font-family: "El Messiri", sans-serif;
+  font-family: 'El Messiri', sans-serif;
   font-size: 1.2em;
 }
 
